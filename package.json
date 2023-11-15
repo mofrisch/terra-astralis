@@ -1,0 +1,23 @@
+{
+  "name": "terra-astralis",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "@astrojs/cloudflare": "0.0.0-cf-assets-20231021193132",
+    "astro": "3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.6",
+    "browserslist": "4.22.1",
+    "lightningcss": "1.22.0",
+    "typescript": "5.2.2",
+    "wrangler": "3.13.1"
+  },
+  "scripts": {
+    "astro": "astro",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "wrangler pages dev dis"
+  },
+  "type": "module"
+}
